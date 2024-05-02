@@ -23,5 +23,25 @@
     "date": "2022-01-10",
     "temperatureC": -2,
     "summary": "Chilly"
+  },
+  {
+    "date": "2022-06-15",
+    "temperatureC": 76,
+    "summary": "Rainy"
+  },
+  {
+    "date": "2022-07-12",
+    "temperatureC": 10,
+    "summary": "Sunny"
+  },
+  {
+    "date": "2022-01-01",
+    "temperatureC": 15,
+    "summary": "Sun is shining"
+  },
+  {
+    "date": "2022-10-25",
+    "temperatureC": 25,
+    "summary": "Foggy"
   }
 ]
