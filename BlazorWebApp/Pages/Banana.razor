@@ -1,0 +1,27 @@
+﻿@page "/banana"
+
+<PageTitle>Banana Market</PageTitle>
+
+
+<h1 style="color: white">Just eat</h1>
+
+<h3 style ="color: white">How many bananas do you want to buy?</h3>
+<br>
+<p style="color: white" role="status">Amount of bananas: @currentCount</p>
+<p style="color: white" role="status">Price of bananas: @currentPrice USD</p>
+
+
+<button class="btn btn-primary" @onclick="IncrementCount">More bananas</button>
+
+@code {
+    private double currentCount = 0;
+    private double currentPrice = 0;
+
+    private void IncrementCount()
+    {
+        currentCount = currentCount + 5;
+        currentPrice = Math.Round(currentCount * 4.99, 2);
+    }
+}
+
+
